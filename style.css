@@ -3,7 +3,7 @@ body {
     height: 100%;
     margin: 0;
     font-family: 'Covered By Your Grace', cursive;
-    font-size: xx-large;
+    font-size: x-large;
 }
 
 #header {
@@ -51,10 +51,6 @@ a:active {
 
 a:hover {
     text-decoration: underline;
-}
-
-.navbar {
-font-size: smaller;
 }
 
 h1 {
