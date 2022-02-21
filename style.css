@@ -9,15 +9,13 @@ body {
 #header {
     background-color: rgb(0, 111, 139);
     color: white;
-    text-align: center;
-    padding: 390px;
 }
 
 #Quote {
     background-color: black;
     text-align: center;
     color: white;
-    padding: 115px;
+    padding: 100px;
 }
 
 #Who-am-I {
@@ -57,4 +55,8 @@ a:hover {
 
 .navbar {
 font-size: smaller;
+}
+
+h1 {
+    font-size: larger;
 }

@@ -22,19 +22,28 @@
 
 <body>
     <header id="header">
-        <div id="description">
-            <h1>NILS</h1>
-            <audio controls autoplay style="opacity: 0.4;">
-                <source src="Images/media/Soundactivity - Sphere Scent.mp3" type="audio/mp3">
-                <source src="Images/media/Soundactivity - Sphere Scent.ogg" type="audio/ogg">
-                <p>Sorry your browser doesn't support HTML5 Audio! Please upgrade your browser.</p>
-            </audio>
-            <h3>Sunshine Coast | Australia</h3>
+        <div class="description">
+            <div class="row">
+                <div class="description col-lg-12 col-md-12 col-sm-12"
+                    style="margin-top: 300px; margin-bottom: 150px; text-align: center;">
+                    <h1>NILS</h1>
+                    <audio controls style="opacity: 0.4;">
+                        <source src="Images/media/Soundactivity - Sphere Scent.mp3" type="audio/mp3">
+                        <source src="Images/media/Soundactivity - Sphere Scent.ogg" type="audio/ogg">
+                        <p>Sorry your browser doesn't support HTML5 Audio! Please upgrade your browser.</p>
+                    </audio>
+                    <h3>Sunshine Coast | Australia</h3>
+                </div>
+
+                <nav class="navbar col-lg-12 col-md-12 col-sm-12"
+                    style="margin-bottom: 150px; padding-right: 350px; padding-left: 350px">
+                    <a href="#Quote">Quote</a>
+                    <a href="#Who-am-I">Who am I</a>
+                    <a href="#Roles">Roles</a>
+                    <a href="#Contact">Get in touch</a>
+                </nav>
+            </div>
         </div>
-        <nav class="navbar">
-            <a href="#Quote">Quote</a> <a href="#Who-am-I">Who am I</a> <a href="#Roles">Roles</a> <a
-                href="#Contact">Get in touch</a>
-        </nav>
     </header>
 
     <section id="Quote">
@@ -45,11 +54,11 @@
     <section id="Who-am-I">
         <div class="container">
             <div class="row">
-                <div class="photo col-lg col-md col-sm-12" style="margin-top: 10px; margin-bottom: 10px">
-                    <img alt="images" src="./Images/Presentation Nils edit 3.png">
+                <div class="photo col-lg-8 col-md-8 col-sm-12" style="margin-top: 10px; margin-bottom: 10px">
+                    <img src="./Images/Presentation Nils edit 3.png" alt="image intro" style="width: 366px; height: 477px">
                 </div>
 
-                <div class="hello col-lg col-md col-sm-12" style="margin-top: 130px;">
+                <div class="hello col-lg-4 col-md-4 col-sm-12" style="margin-top: 50px; text-align: center">
                     <h1>
                         Cheers!<br>
                         I'm Nilton Roese.
@@ -66,22 +75,25 @@
     <section id="Roles">
         <div class="container">
             <div class="row">
-                <div class="fatherhood col-lg-8 col-md-8 col-sm-12" style="margin-top: 20px; text-align: left;">
+                <div class="fatherhood col-lg-8 col-md-8 col-sm-12"
+                    style="margin-top: 20px; margin-bottom: 20px; text-align: left">
                     <h1>Fatherhood</h1>
                     <p>Lila (Sanskrit for "Divine play").<br>
                         Expressiful, caring, sweet and lovable.<br>
                         Having, nurture and loving a child is the closest one can get to the true meaning of love.</p>
                 </div>
 
-                <div class="fatherhood col-lg-4 col-md-4 col-sm-12" style="margin-bottom: 20px; margin-top: 20px; text-align: right;">
-                    <img alt="images" src="./Images/Mount coolum.jpg"
+                <div class="fatherhood col-lg-4 col-md-4 col-sm-12"
+                    style="margin-bottom: 20px; margin-top: 20px; text-align: center">
+                    <img src="./Images/Mount coolum.jpg" alt="mount coolum"
                         style="border-radius: 50%; width: 300px; height: 300px;">
                 </div>
             </div>
         </div>
         <div class="container">
             <div class="row">
-                <div class="Engineering col-lg-8 col-md-8 col-sm-12" style="margin-top: 20px; text-align: left;">
+                <div class="Engineering col-lg-8 col-md-8 col-sm-12"
+                    style="margin-top: 20px; margin-bottom: 20px; text-align: left">
                     <h1>Engineering</h1>
                     <p> An impactful BDM and Sales Engineer with more than 10 years experience across Chemicals and
                         Road
@@ -92,15 +104,17 @@
                         sales process.</p>
                 </div>
 
-                <div class="Engineering col-lg-4 col-md-4 col-sm-12" style="margin-bottom: 20px; margin-top: 20px; text-align: right;">
-                    <img alt="images" src="./Images/thisisengineering-raeng-Na86iQQOAOQ-unsplash.jpg"
+                <div class="Engineering col-lg-4 col-md-4 col-sm-12"
+                    style="margin-bottom: 20px; margin-top: 20px; text-align: center">
+                    <img src="./Images/thisisengineering-raeng-Na86iQQOAOQ-unsplash.jpg" alt="technical drawing" 
                         style="border-radius: 50%; width: 300px; height: 300px;">
                 </div>
             </div>
         </div>
         <div class="container">
             <div class="row">
-                <div class="Soundactivity col-lg-8 col-md-8 col-sm-12" style="margin-top: 20px; text-align: left;">
+                <div class="Soundactivity col-lg-8 col-md-8 col-sm-12"
+                    style="margin-top: 20px; margin-bottom: 20px; text-align: left">
                     <h1>Soundactivity</h1>
                     <p>A one-man-band created in 2012 attempting to turn flooding ideas into music. It delivers
                         on a
@@ -108,8 +122,9 @@
                         different genres such as Progressive, Instrumental, Space and Experimental Rock.</p>
                 </div>
 
-                <div class="soundactivity col-lg-4 col-md-4 col-sm-12" style="margin-bottom: 20px; margin-top: 20px; text-align: right;">
-                    <img alt="images" src="./Images/logic unplash square.jpg"
+                <div class="soundactivity col-lg-4 col-md-4 col-sm-12"
+                    style="margin-bottom: 20px; margin-top: 20px; text-align: center">
+                    <img src="./Images/logic unplash square.jpg" alt="music software" 
                         style="border-radius: 50%; width: 300px; height: 300px;">
                 </div>
             </div>
@@ -120,8 +135,9 @@
                     <h1>Software Engineering</h1>
                     <p>A new play...in progress.</p>
                 </div>
-                <div class="software col-lg-4 col-md-4 col-sm-12" style="margin-bottom: 20px; margin-top: 20px; text-align: right;">
-                    <img alt="images" src="./Images/First Mile blog pic.jpg"
+                <div class="software col-lg-4 col-md-4 col-sm-12"
+                    style="margin-bottom: 20px; margin-top: 20px; text-align: center">
+                    <img src="./Images/First Mile blog pic.jpg" alt="coding" 
                         style="border-radius: 50%; width: 300px; height: 300px;">
                 </div>
             </div>
@@ -132,11 +148,11 @@
         <h2>Get in touch!</h2>
         <div class="container">
             <div class="row">
-                <div class="Email col-lg col-md col-sm-12" style="text-align: left;">
+                <div class="Email col-lg-6 col-md-6 col-sm-12" style="text-align: center;">
                     <h3>Email</h3>
                     <a href="mailto:niltonroese@gmail.com">niltonroese@gmail.com</a>
                 </div>
-                <div class="networks col-lg col-md col-sm-12" style="text-align: right">
+                <div class="networks col-lg-6 col-md-6 col-sm-12" style="text-align: center">
                     <ul>
                         <h3>Networks</h3>
                         <a href="https://github.com/niltonroese" target="_blank">GitHub</a>
