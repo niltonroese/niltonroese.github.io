@@ -19,7 +19,7 @@ body {
 }
 
 #Who-am-I {
-    background-color: #e9c893;
+    background-color: #d3b584;
     text-align: center;
     color: black;
 }
@@ -55,4 +55,5 @@ a:hover {
 
 h1 {
     font-size: larger;
+    color: white;
 }
