@@ -47,6 +47,7 @@ a:active {
     color: black;
     background-color: transparent;
     text-decoration: none;
+    font-size: smaller;
 }
 
 a:hover {
