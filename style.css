@@ -2,7 +2,7 @@ body {
     width: 100%;
     height: 100%;
     margin: 0;
-    font-family: 'Covered By Your Grace', cursive;
+    font-family: Architects Daughter;
     font-size: x-large;
 }
 
@@ -25,12 +25,12 @@ body {
 }
 
 #Roles {
-    background-color: #828081;
+    background-color: #722f37cb;
     color: black;
 }
 
 #Contact {
-    background-color: #1e392a;
+    background-color: #2d553f;
     color: white;
     text-align: center;
 }
@@ -54,6 +54,5 @@ a:hover {
 }
 
 h1 {
-    font-size: larger;
     color: white;
 }
